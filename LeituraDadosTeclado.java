@@ -20,7 +20,7 @@ public class LeituraDadosTeclado {
 	String umNome = scan.next();
 	int novaIdade = scan.nextInt();
 	byte filhos = scan.nextByte();
-	float altura = scan.nextFloat();
+	double altura = scan.nextDouble();
 	boolean pets = scan.nextBoolean();
 	
 	System.out.println("Você digitou...");
